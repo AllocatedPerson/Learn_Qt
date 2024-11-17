@@ -9,4 +9,8 @@ public:
     explicit SupplementInfoWidget(QWidget *parent = nullptr);
 
 signals:
+
+private:
+    //struct Data;
+    //std::unique_ptr<Data> d;
 };
