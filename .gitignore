@@ -30,3 +30,19 @@
 *.exe
 *.out
 *.app
+
+# All Build Dir
+**/build/
+/build/
+
+# Qt
+*.pro.user*
+*.user
+*.pro.user.*
+*.moc
+*.qrc
+.vs/
+.vs2019/
+*.vcxproj
+*.vcxproj.user
+*.suo
