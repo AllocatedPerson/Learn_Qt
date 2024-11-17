@@ -46,3 +46,7 @@
 *.vcxproj
 *.vcxproj.user
 *.suo
+
+# .DS_Store
+/.DS_Store
+**/.DS_Store
