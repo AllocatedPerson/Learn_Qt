@@ -2,6 +2,8 @@
 
 #include <QtWidgets/QMainWindow>
 
+namespace practice_0x01 {
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -9,8 +11,6 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = nullptr) noexcept;
     ~MainWindow();
-
-private:
-    struct Data;
-    std::unique_ptr<Data> d;
 };
+
+}
